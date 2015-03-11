@@ -1,6 +1,6 @@
 import sys
 def loop1() :
-	print  3 #">You have entered a hallway with two doors. Which do you choose? Door 1 or Door 2? (hint: you will die if you choose Door 1)"
+	print  ">You have entered a hallway with two doors. Which do you choose? Door 1 or Door 2? (hint: you will die if you choose Door 1)"
 	def loop2() :
 		door = raw_input(">")
 		if door == "Door 1." or door =="Door 1" or door == "door 1." or door == "door 1" or door == "Door1." or door =="Door1" or door == "door1." or door == "door1" or door == "1." or door == "1":
